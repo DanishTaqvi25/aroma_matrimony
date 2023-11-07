@@ -1,0 +1,905 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1250px;
+    width: 100%;
+}
+
+#header {
+    position: ;
+    top: 0px;
+}
+.loginbtn {
+    cursor: pointer;
+}
+.dropdown-menu {
+    left: 45px;
+}
+.navbar-nav img {
+    width: 25px;
+}
+.dropdown-menu li img {
+    margin-right: 10px;
+}
+.nav-link {
+    color: #000 !important;
+    padding: 0px !important;
+}
+#navbarNavDropdown {
+    flex-direction: column;
+}
+.loginregister {
+    width: 100%;
+    text-align: right;
+}
+.loginregister p {
+    margin-bottom: 0px;
+}
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+}
+.navbar-brand img {
+    width: 250px;
+}
+.dropdown-menu {
+    padding: 5px;
+    border-radius: 0px !important;
+}
+.dropdown-menu.show {
+    box-shadow: -2px 3px 5px .5px #080808;
+}
+.navbar.navbar-expand-md.navbar-light {
+    padding: 10px 0px;
+}
+.navbar li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+#header {
+    width: 100%;
+}
+#navbarNavDropdown {
+    justify-content: right;
+-webkit-box-pack: justify;
+-webkit-justify-content: flex-end;
+}
+#header a, #header p {
+    font-size: 13px;
+    font-weight: 400 !important;
+}
+.banner {
+    padding: 18% 0px;
+}
+.bannerform {
+    padding: 25px 20px;
+    background: rgba(0,0,0,0.5);
+}
+.loginbtn {
+    background: #adadad;
+    color: #fff;
+    font-size: 11px !important;
+    padding: 5px 15px;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.regbtn {
+    background: #ff0000;
+    color: #fff;
+    font-size: 11px !important;
+    padding: 5px 15px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.navbar-nav .nav-link::after {
+    content: '|';
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-item:last-child .nav-link::after {
+    display: none;
+}
+.loginregister {
+    margin-bottom: 10px;
+}
+footer {
+    background: #eeeeee;
+    padding: 20px 0px;
+}
+.footer_inner img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+.footer_inner p {
+    color: #636b70;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.footer_inner h4 {
+color: #000;
+font-size: 18px;
+margin-bottom: 15px;
+font-weight: 600;
+margin-top: 20px;
+}
+.footer_inner i {
+    width: 15px;
+    color: #8d8c8d;
+}
+.footer_inner input {
+    background: #2c2c2c;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.footer_inner ul {
+    padding: 0px;
+    line-height: 20px;
+}
+.footer_inner.middle {
+    padding-left: 25%;
+}
+.footer_inner.middle p {
+    display: flex;
+    align-items: center;
+}
+.footer_inner.middle p img {
+    width: 25px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+.copyright {
+    background: #bbb;
+    padding: 10px 0px;
+}
+.footer_inner button {
+    background: transparent;
+    color: #8d8c8d;
+    font-size: 12px;
+    border: 1px solid #8d8c8d;
+    padding: 7px 20px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.row {
+    margin: 0px auto;
+}
+.footer_inner li a {
+    color: #636b70;
+    font-size: 12px;
+    font-weight: 400;
+}
+.copyright p, .copyright a {
+    color: #414141;
+    font-size: 14px;
+    font-weight: 600;
+}
+.copyright ul {
+    list-style: none;
+    padding: 0px;
+    float: right;
+}
+.copyright ul li {
+    float: left;
+}
+.copyright ul, .copyright p {
+    margin-bottom: 0px !important;
+}
+footer ul {
+  list-style: none; /* Remove default bullets */
+}
+.phide {
+    padding: 0px 5px;
+}
+footer ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: 0em; /* Also needed for space (tweak if needed) */
+}
+footer .col-md-3 {
+    padding: 0px 40px;
+}
+footer .col-md-5 {
+    padding-right: 100px;
+}
+*{
+    transition: all 0.2s ease;
+}
+#header .nav-link {
+    font-size: 14px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.darkHeader {
+    position: fixed !important;
+    top: 0px;
+    display: block;
+    background: #fff !important;
+    z-index: 999;
+}
+.banner {
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.inner_profile {
+    width: 10%;
+    float: left;
+}
+.inner_profile img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.success_stories img {
+    width: 100%;
+}
+.bannerform h3 {
+    font-size: 28px;
+    color: #fff;
+}
+.bannerform h4 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 300;
+}
+.bannerform form {
+display: flex;
+align-items: center;
+background: #fff;
+border-radius: 5px;
+}
+.bannerform label {
+    color: #6b6b6b;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.bannerform .form-group {
+    margin-bottom: 0px;
+    padding: 10px;
+}
+.bannerform form input {
+    padding: 5px;
+    width: 90%;
+    border: none;
+}
+.bannerform form button {
+    background: #f00;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    min-width: 150px;
+    text-align: center;
+    padding: 30px 5px;
+}
+.trust_icons {
+    padding: 5% 0px;
+    text-align: center;
+}
+.trust_icons img {
+    width: 100px;
+    object-fit: contain;
+}
+.trust_icons img {
+    height: 100px;
+    margin-bottom: 10px;
+}
+.inner_ti p {
+    font-weight: 300;
+    font-size: 14px;
+}
+.inner_ti h3 {
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+.active_profile {
+    background: #eee;
+    padding: 50px 0px;
+}
+.success_stories{
+    padding: 50px 0px;
+}
+.active_profile h3,.success_stories h3 {
+    font-size: 24px;
+    text-align: center;
+}
+.active_profile p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+.success_stories h4 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.success_stories p {
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+#regForm {
+  width: 100%;
+}
+
+
+.modal_form input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+.modal_form input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.modal_form .tab {
+  display: none;
+}
+
+.modal_form button {
+  background-color: #cecece;
+  color: #000;
+  border: none;
+  padding: 5px 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.modal_form button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #ff0000;
+}
+.row.modal-body {
+    margin: 0px;
+}
+.discover h1 {
+    color: #860c0c;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.close {
+    text-align: right;
+    margin-right: 10px;
+}
+.modal_form h3 {
+    font-size: 13px;
+    color: #000;
+    background: #f4f4f4;
+    padding: 5px 10px;
+    font-weight: 300;
+    display: inline-block;
+width: 100%;
+   margin-top: 15px;
+}
+.modal_form .form-group {
+    width: 25%;
+    float: left;
+    display: block;
+    padding: 0px 5px;
+}
+.modal_form label {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 3px;
+}
+.modal_form .form-group {
+    margin-bottom: 10px;
+}
+.pnstep, .pnbtn {
+    display: inline-block;
+    width: 100%;
+}
+.pnbtn{
+    margin-top: 15px;
+}
+.modal_form input, .modal_form select,.modal_form textarea {
+    border: 1px solid #d7d7d7;
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+    font-size: 13px;
+}
+.modal_form textarea{
+    height: 100px;
+}
+.inner_profile img:hover,.success_stories img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 3px 10px #000;
+}
+.success_stories a {
+    display: block;
+    width: 100%;
+    color: #000;
+}
+.bannerform form {
+    overflow: hidden;
+}
+*{
+    transition: all 0.5s ease;
+}
+.preview-images-zone {
+    width: 100%;
+    border: 1px solid #ddd;
+    min-height: 180px;
+    /* display: flex; */
+    padding: 5px 5px 0px 5px;
+    position: relative;
+    overflow:auto;
+}
+.preview-images-zone > .preview-image:first-child {
+    height: 185px;
+    width: 185px;
+    position: relative;
+    margin-right: 5px;
+}
+.preview-images-zone > .preview-image {
+    height: 185px;
+    width: 185px;
+    position: relative;
+    margin-right: 5px;
+    float: left;
+    margin-bottom: 5px;
+}
+.preview-images-zone > .preview-image > .image-zone {
+    width: 100%;
+    height: 100%;
+}
+.preview-images-zone > .preview-image > .image-zone > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.preview-images-zone > .preview-image > .tools-edit-image {
+    position: absolute;
+    z-index: 100;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
+}
+.preview-images-zone > .preview-image > .image-cancel {
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+    z-index: 100;
+}
+.preview-image:hover > .image-zone {
+    cursor: move;
+    opacity: .5;
+}
+.preview-image:hover > .tools-edit-image,
+.preview-image:hover > .image-cancel {
+    display: block;
+}
+.ui-sortable-helper {
+    width: 185px !important;
+    height: 185px !important;
+}
+.form-group.fwidth {
+    width: 100%;
+}
+.form-group.fwidth a {
+    color: #000;
+    font-size: 13px;
+    border: 1px solid #000;
+    padding: 5px;
+    display: inline-block;
+}
+.btn.btn-light.btn-edit-image input {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+.btn.btn-light.btn-edit-image {
+    font-size: 8px;
+}
+
+@media screen and (max-width: 992px) {
+  .bannerform label {
+    color: #6b6b6b;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.inner_profile {
+    width: 20%;
+    float: left;
+}
+}
+@media screen and (max-width: 768px) {
+.navbar-toggle {
+    margin-top: 30px;
+}
+.bannerform form {
+    display: block;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+}
+.modal_form .form-group {
+    width: 50%;
+    float: left;
+    display: block;
+    padding: 0px 5px;
+}
+.inner_profile {
+    width: 50%;
+    float: left;
+}
+.row.modal-body {
+    padding: 0px;
+}
+.success_stories p {
+    margin-bottom: 20px;
+}
+.footer_inner.middle {
+    padding-left: 0px;
+}
+.copyright p, .copyright a {
+    color: #414141;
+    font-size: 11px;
+    font-weight: 600;
+}
+.copyright ul {
+    list-style: none;
+    padding: 0px;
+    float: none;
+}
+.loginregister {
+    width: 100%;
+    text-align: center;
+}
+.navbar-nav .nav-link::after {
+    display: none;
+}
+#header .nav-link {
+    text-align: center;
+    margin-top: 10px;
+}
+.bannerform form button {
+    width: 100%;
+}
+.bannerform form input {
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.nav-item.last_item a {
+    font-size: 14px !important;
+    border: none;
+    border-radius: 0px;
+    padding: 5px 10px !important;
+}
+.navbar-header {
+    width: 50%;
+    float: right;
+}
+.navbar-brand {
+    padding: 5px;
+}
+
+.footer_inner {
+    margin-bottom: 30px;
+}
+
+#navbarNavDropdown {
+    background: #fff;
+    z-index: 99;
+    border-radius: 5px;
+}
+
+#navbarNavDropdown {
+    padding: 20px 10px;
+}
+.darkHeader .navbar-brand img {
+    width: 150px;
+}
+.dropdown-menu i{
+    display: none;
+}
+.navbar-toggler-icon {
+    background: #fff;
+    border-radius: 5px;
+}
+.nav-link.booknow {
+    margin-left: 0px;
+}
+.nav-link.booknow {
+    background: #fff;
+    font-size: 16px !important;
+    color: #000 !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+#header .nav-link {
+    font-size: 16px;
+    color: #000 !important;
+}
+}
+
+
+/*Automatch CSS*/
+.left_matchbar {
+    background: #f4f4f4;
+    height: 100%;
+    padding: 20px;
+}
+.left_matchbar h4 {
+    color: #666;
+    font-size: 16px;
+}
+.left_matchbar ul {
+    list-style: none;
+    padding: 0px;
+    font-size: 14px;
+    line-height: 26px;
+}
+.left_matchbar ul li a{
+    color: #666;
+    font-size: 12px;
+}
+#header {
+    box-shadow: 0px 0px 5px 1px #ccc;
+}
+.matchprofile {
+    margin-top: 30px;
+}
+.right_match .col-md-12 {
+    background: #f4f4f4;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.right_match .col-md-12 h4 {
+    color: #666;
+    font-weight: 400;
+    font-size: 16px;
+    width: 50%;
+    float: left;
+    margin-bottom: 0px;
+}
+.right_match .col-md-12 h5 {
+    color: #666;
+    font-weight: 400;
+    font-size: 14px;
+    width: 50%;
+    float: left;
+    margin-bottom: 0px;
+    text-align: right;
+}
+.inner_matchprofile {
+    background: #f7f7f7;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 1px #fafafa;
+}
+.inner_matchprofile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.inner_matchprofile h3 {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.inner_matchprofile p {
+    color: #666;
+    font-size: 11px;
+    line-height: 16px;
+    margin-bottom: 0px;
+}
+.expresspopup {
+    background: #ff0000;
+    color: #fff;
+    font-size: 10px !important;
+    padding: 2px 10px;
+    border-radius: 4px;
+}
+.row.inner_matchprofile .col-md-4, .row.inner_matchprofile .col-md-8 {
+    padding: 0px !important;
+}
+.right_match .col-md-4 {
+    padding: 0px 10px;
+}
+.npadng {
+    padding: 0px;
+}
+.row.inner_matchprofile .col-md-8 {
+    padding-left: 10px !important;
+}
+#expressmatch .modal-body {
+    padding: 0px;
+}
+#expressmatch .inner_matchprofile {
+    margin-bottom: 0px;
+    box-shadow: none;
+}
+#expressmatch .modal-header {
+    background: #c9c9c9;
+    padding: 5px 10px;
+}
+#expressmatch .modal-header h5 {
+    color: #666;
+    font-size: 14px;
+    margin-top: 2px;
+}
+.bggray {
+    display: inline-block;
+    height: 100px;
+    background: #eee;
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1050px) {
+   .inner_matchprofile img {
+    height: auto;
+}
+}
+
+@media screen and (max-width: 768px) {
+.npadng {
+    padding: 15px;
+}
+.right_match .col-md-12 h4, .right_match .col-md-12 h5 {
+    width: 100%;
+    text-align: left;
+    line-height: 26px;
+}
+.right_match .col-md-4 {
+    padding: 0px 0px;
+}
+.row.inner_matchprofile .col-md-4, .row.inner_matchprofile .col-md-8 {
+    padding: 10px !important;
+}
+#expressmatch h3 {
+    margin-top: 10px;
+}
+}
+
+
+
+
+
+/*LOGIN MODAL CSS*/
+.discover img {
+    width: 100%;
+}
+#login .row {
+    align-items: center;
+}
+.login_b {
+    background: #ff0000 !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    padding: 5px 15px !important;
+    border-radius: 4px;
+    margin-left: 5px;
+    width: 130px;
+}
+#login label {
+    font-size: 16px;
+}
+#login input {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 5px 10px !important;
+    height: auto;
+    border-radius: 5px;
+}
+.reg {
+    background: #ff0000 !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    padding: 5px 15px !important;
+    border-radius: 4px;
+    margin-left: 5px;
+    display: block;
+    margin: 0px auto;
+    width: 130px;
+    text-align: center;
+}
+#login .modal_form p {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.modal_form {
+    padding: 30px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.modal_form h4 {
+    text-align: center;
+}
+.modal_form a {
+    color: #000;
+    font-size: 14px;
+}
+.close {
+    position: absolute;
+    right: 10px;
+    z-index: 999999999;
+    margin: 0px;
+}
+#login .modal-body {
+    padding: 30px 10px;
+}
+@media screen and (max-width: 768px) {
+    .modal_form {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.login_b {
+    display: block;
+    margin: 0px;
+}
+.navbar-brand img {
+    width: 200px;
+}
+#navbarNavDropdown {
+    padding: 20px 0px;
+}
+}
